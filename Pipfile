@@ -1,0 +1,29 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+jupyterlab = "*"
+spacy = "*"
+rasa = "*"
+numpy = "*"
+scikit-learn = "*"
+scikit-image = "*"
+opencv-python = "*"
+opencv-contrib-python = "*"
+pandas = "*"
+xlrd = "*"
+rasa-nlu = {extras = ["scacy"]}
+scipy = "*"
+tensorflow = "*"
+keras = "*"
+seaborn = "*"
+dateparser = "*"
+nbdime = "*"
+nbstripout = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
